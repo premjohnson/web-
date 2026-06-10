@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightyellow;
+}
+
+.container{
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    border: 25px solid black;
+
+    gap: 20px;
+
+    height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 120px;
+    height: 120px;
+
+    border: 2px solid black;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightyellow;
+}
+
+/* selector {
+    property: value;
+} */
+
+/* * = All Elements */
+
+/* h1 = Tag Selector */
+
+/* .title = Class Selector */
+
+/* #header = ID Selector */
+
+/* h1, p = Group Selector */
+
+/* div > p = Child Selector */
+
+/* h1 + p = Adjacent Sibling Selector */
+
+h1{
+    color: blue;
+}
+
+p{
+    color: green;
+}
+
+.hex{
+    color: #ff0000;
+}
+
+.rgb{
+    color: rgb(154, 0, 192);
+}
+

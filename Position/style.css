@@ -1,0 +1,58 @@
+/* position: static;   Default */
+
+/* position: relative; Move from original position */
+
+/* position: absolute; Relative to parent */
+
+/* position: fixed;    Fixed on screen */
+
+/* position: sticky;   Sticks on scroll */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightyellow;
+}
+.relative-box{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: lightblue;
+    padding: 10px;
+}
+
+.parent{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: orange;
+    padding: 10px;
+}
+
+.fixed-box{
+    position: fixed;
+    background: green;
+    color: white;
+    bottom: 10px;
+    padding: 10px;
+}
+
+.sticky-box{
+    position: sticky;
+    top: 0;
+    background: lightcoral;
+    padding: 10px;
+}

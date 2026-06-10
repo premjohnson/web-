@@ -1,0 +1,61 @@
+/* px = Fixed Size */
+
+/* % = Parent Size */
+
+/* em = Parent Font Size */
+
+/* rem = Root Font Size */
+
+/* vw = Screen Width */
+
+/* vh = Screen Height */
+
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.px-box{
+    width: 200px;
+}
+
+
+.parent{
+    width: 600px;
+}
+
+.percent-box{
+    width: 50%;
+    background-color: lightblue;
+}
+
+
+.em-box{
+    font-size: 2em;
+}
+
+
+.rem-box{
+    font-size: 2rem;
+}
+
+
+.vw-box{
+    width: 50vw;
+    background-color: lightgreen;
+}
+
+.vh-box{
+    height: 30vh;
+    background-color: lightcoral;
+}

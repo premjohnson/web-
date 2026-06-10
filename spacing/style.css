@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightyellow;
+}
+h1{
+    text-align: center;
+}
+
+.box1{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 40px;
+}
+.box2{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 40px;
+}
+.box3{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 40px 50px 30px 40px;
+    padding: 40px 50px 30px 40px;
+}
+/* padding: top right bottom left; */ 
