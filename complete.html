@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>CSS Examples</title>
+<style>
+    body {
+
+        font-family: Arial, sans-serif;
+
+        text-align: center;
+
+        padding: 30px;
+
+    }
+
+    .btn {
+
+        padding: 10px 20px;
+
+        background-color: blue;
+
+        color: white;
+
+        border: none;
+
+        cursor: pointer;
+
+    }
+    .btn:hover {
+
+        background-color: red;
+
+    }
+    .box {
+
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        margin: 20px auto;
+        transition: 1s;
+
+    }
+
+    .box:hover {
+
+        width: 200px;
+
+    }
+
+    .circle {
+
+        width: 80px;
+        height: 80px;
+        background-color: orange;
+        border-radius: 50%;
+        margin: 20px auto;
+        animation: move 2s infinite;
+
+    }
+
+
+
+    @keyframes move {
+
+        0% {
+
+            transform: translateX(0);
+
+        }
+        50% {
+
+            transform: translateX(100px);
+
+        }
+        75%{
+            transform: translateX(-100px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+
+    }
+
+    .media-box {
+
+        background-color: purple;
+
+        color: white;
+
+        padding: 20px;
+
+        margin-top: 20px;
+
+    }
+
+    @media (max-width: 600px) {
+
+
+
+        .media-box {
+
+            background-color: red;
+
+        }
+
+
+
+    }
+
+</style>
+</head>
+<body>
+<h2>17. Pseudo Class</h2>
+<button class="btn">
+
+    Hover Me
+
+</button>
+
+<hr>
+
+<h2>18. Transition</h2>
+
+<div class="box"></div>
+
+<hr>
+
+<h2>19. Animation</h2>
+
+<div class="circle"></div>
+
+<hr>
+<h2>20. Media Query</h2>
+<div class="media-box">
+
+    Resize Browser Window
+
+</div>
+</body>
+
+</html>  

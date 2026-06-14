@@ -13,8 +13,7 @@
 13. Display
 14. Position
 15. Flexbox
-16. Grid
-17. Pseudo Classes
-18. Transitions
-19. Animations
-20. Media Queries
+16. Pseudo Classes
+17. Transitions
+18. Animations
+19. Media Queries

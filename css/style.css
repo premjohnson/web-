@@ -12,15 +12,15 @@ html,body{
 
 /* selector {
     property: value;
-} */
+}
 
-/* * = All Elements */
+* = All Elements
 
-/* h1 = Tag Selector */
+h1 = Tag Selector
 
-/* .title = Class Selector */
+.title = Class Selector
 
-/* #header = ID Selector */
+#header = ID Selector */
 
 /* h1, p = Group Selector */
 
